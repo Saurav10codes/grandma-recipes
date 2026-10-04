@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+faster-whisper
+groq
+python-multipart
+# ffmpeg must be installed on the system: sudo apt install ffmpeg
