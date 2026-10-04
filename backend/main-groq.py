@@ -54,7 +54,7 @@ async def format_recipe(body: dict):
     transcript = body.get("transcript", "")
     try:
         message = groq_client.chat.completions.create(
-            model="llama-3.1-8b-instant",  # Free Groq model
+            model="llama3-8b-8192",  # Free Groq model
             messages=[
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": transcript},
