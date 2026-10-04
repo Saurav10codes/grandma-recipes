@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import ReactMarkdown from "react-markdown";
 import "./App.css";
 
-const API = import.meta.env.VITE_API_URL ?? "";
+const API = "https://grandma-recipes-7acq.onrender.com";
 
 export default function App() {
   const [status, setStatus] = useState("idle"); // idle | recording | processing | done | error
