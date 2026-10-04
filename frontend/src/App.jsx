@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import ReactMarkdown from "react-markdown";
 import "./App.css";
 
-const API = "";
+const API = import.meta.env.VITE_API_URL ?? "";
 
 export default function App() {
   const [status, setStatus] = useState("idle"); // idle | recording | processing | done | error
