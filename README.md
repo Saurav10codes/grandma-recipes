@@ -3,7 +3,7 @@
 
   
 
-Speak a recipe → get it transcribed and formatted as Markdown. Runs **100% locally** (or free with Groq API).
+Speak a recipe → get it transcribed and formatted as Markdown. Runs **100% locally**.
 
   
 
@@ -87,9 +87,6 @@ Open http://localhost:5173
 - 🎨 **Neo-brutalism UI** — bold, minimalist design
 
 - 🚀 **100% local** (optional) — no data leaves your machine
-
-- ⚡ **Fast** — Whisper tiny on CPU, Groq API for formatting
-
   
 
 ## How it works
@@ -98,7 +95,7 @@ Open http://localhost:5173
 
 2. Whisper transcribes locally
 
-3. LLM (Groq or Ollama) formats into Markdown recipe
+3. LLM (Ollama) formats into Markdown recipe
 
 4. Display with proper styling
 
